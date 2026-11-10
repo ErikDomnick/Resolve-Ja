@@ -2,8 +2,7 @@
 // learn more about it in the docs: https://pris.ly/d/prisma-schema
 
 generator client {
-  provider = "prisma-client"
-  output   = "../src/generated/prisma"
+  provider = "prisma-client-js"
 }
 
 datasource db {
@@ -12,8 +11,26 @@ datasource db {
 }
 
 model User {
-  id        Int      @id @default(autoincrement())
-  name      String
-  email     String   @unique
-  createdAt DateTime @default(now())
+  id          Int          @id @default(autoincrement())
+  nome        String
+  email       String       @unique
+  telefone    String
+  createdAt   DateTime     @default(now())
+
+  ocorrencias Ocorrencia[]
+}
+
+model Ocorrencia {
+  id          Int          @id @default(autoincrement())
+  descricao   String
+  categoria   String
+  prioridade  String       @default("BAIXA")
+  status      String       @default("ABERTA")
+  latitude    Float
+  longitude   Float
+  imagem      String?
+  createdAt   DateTime     @default(now())
+
+  userId      Int
+  user        User         @relation(fields: [userId], references: [id])
 }

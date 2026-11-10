@@ -1,0 +1,2 @@
+export const STATUS = ['ABERTA', 'EM_ANALISE', 'EM_ANDAMENTO', 'RESOLVIDA', 'REJEITADA'];
+export const PRIORIDADES = ['BAIXA', 'MEDIA', 'ALTA'];
