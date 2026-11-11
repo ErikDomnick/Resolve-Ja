@@ -1,0 +1,5 @@
+.form-acompanhar {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}

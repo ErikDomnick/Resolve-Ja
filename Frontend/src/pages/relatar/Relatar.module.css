@@ -1,0 +1,12 @@
+.section-relatar {
+  width: 100%;
+  max-width: 700px;
+  background-color: var(--branco);
+  border: 2px solid var(--azul-borda);
+  border-radius: var(--raio-card);
+  padding: 24px 30px;
+}
+
+.section-relatar h1 {
+  color: var(--azul-escuro);
+}

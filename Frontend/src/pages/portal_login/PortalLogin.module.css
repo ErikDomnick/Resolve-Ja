@@ -1,0 +1,17 @@
+.section-login {
+  width: 100%;
+  max-width: 420px;
+  background-color: var(--branco);
+  border: 2px solid var(--azul-borda);
+  border-radius: var(--raio-card);
+  padding: 24px 30px;
+}
+
+.section-login h1 {
+  color: var(--azul-escuro);
+}
+
+.texto {
+  margin-bottom: 14px;
+  color: var(--texto-suave);
+}

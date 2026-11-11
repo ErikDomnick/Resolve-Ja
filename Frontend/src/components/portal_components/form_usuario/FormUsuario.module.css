@@ -1,0 +1,15 @@
+.form-usuario {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form-usuario h2 {
+  margin-bottom: 10px;
+  color: var(--azul-escuro);
+}
+
+.botoes-form {
+  display: flex;
+  gap: 10px;
+}

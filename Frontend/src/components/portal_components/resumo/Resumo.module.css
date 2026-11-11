@@ -1,0 +1,87 @@
+.resumo {
+  width: 100%;
+}
+
+.cartoes {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.cartao {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--azul-claro);
+  border: 2px solid var(--azul-borda);
+  border-radius: var(--raio-card);
+  padding: 14px 16px;
+}
+
+.cartao strong {
+  font-size: 1.8rem;
+  color: var(--azul-escuro);
+}
+
+.cartao span {
+  font-size: 0.85rem;
+  color: var(--texto-suave);
+}
+
+.graficos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.graficos h2 {
+  margin-bottom: 8px;
+  color: var(--azul-escuro);
+}
+
+.barra {
+  display: grid;
+  grid-template-columns: 120px 1fr 30px;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+  font-size: 0.85rem;
+}
+
+.barra-rotulo {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.barra-trilho {
+  height: 12px;
+  border-radius: 999px;
+  background-color: var(--cinza-fundo);
+  overflow: hidden;
+}
+
+.barra-preenchida {
+  height: 100%;
+  background-color: var(--azul);
+  border-radius: 999px;
+}
+
+.barra-valor {
+  text-align: right;
+  font-weight: 700;
+}
+
+.vazio {
+  color: var(--texto-suave);
+}
+
+@media (max-width: 700px) {
+  .cartoes {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .graficos {
+    grid-template-columns: 1fr;
+  }
+}

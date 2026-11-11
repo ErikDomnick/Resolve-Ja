@@ -1,0 +1,54 @@
+.resultado {
+  background-color: var(--azul-claro);
+  border: 2px solid var(--azul-borda);
+  border-radius: var(--raio-card);
+  padding: 16px 20px;
+  margin-top: 20px;
+}
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.cabecalho h2 {
+  color: var(--azul-escuro);
+  margin-right: auto;
+}
+
+.descricao {
+  margin: 10px 0 16px;
+  white-space: pre-wrap;
+}
+
+.etapas {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  list-style: none;
+}
+
+.etapas li {
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 8px 4px;
+  border-radius: var(--raio-pequeno);
+  background-color: var(--cinza-fundo);
+  color: var(--texto-suave);
+}
+
+.etapas li.feita {
+  background-color: var(--azul);
+  color: var(--branco);
+}
+
+.rejeitada {
+  color: var(--erro-texto);
+  background-color: var(--erro-fundo);
+  border-left: 4px solid var(--erro-borda);
+  padding: 8px 12px;
+}

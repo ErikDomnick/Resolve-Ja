@@ -148,6 +148,8 @@ dist/
 # banco
 *.db
 *.db-journal
+*.sqlite
+*.sqlite3
 
 # prisma
 /generated/prisma

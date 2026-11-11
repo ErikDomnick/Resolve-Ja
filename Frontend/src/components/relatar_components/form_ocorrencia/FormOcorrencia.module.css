@@ -1,0 +1,48 @@
+.form-ocorrencia {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form-ocorrencia h2 {
+  margin: 10px 0 8px;
+  color: var(--azul-escuro);
+}
+
+.linha {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.botao-local {
+  margin-bottom: 18px;
+  background-color: var(--azul-claro);
+  color: var(--azul);
+  border-color: var(--azul-borda);
+}
+
+.botao-local:hover {
+  background-color: var(--azul-borda);
+  border-color: var(--azul-borda);
+  color: var(--azul-escuro);
+}
+
+.botao-enviar {
+  align-self: flex-start;
+  background-color: var(--laranja);
+  border-color: var(--laranja);
+  min-height: 42px;
+  padding: 0 24px;
+}
+
+.botao-enviar:hover {
+  background-color: #c2410c;
+  border-color: #c2410c;
+}
+
+@media (max-width: 600px) {
+  .linha {
+    grid-template-columns: 1fr;
+  }
+}

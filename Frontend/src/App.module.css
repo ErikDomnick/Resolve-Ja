@@ -1,0 +1,44 @@
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  background-color: var(--azul);
+  padding: 12px 10px;
+}
+
+.botoes-nav {
+  font-size: 1rem;
+  font-weight: 600;
+  border: 2px solid var(--azul-borda);
+  background-color: var(--azul);
+  border-radius: var(--raio-pequeno);
+  transition: var(--transicao);
+  color: var(--branco);
+  padding: 5px 14px;
+}
+
+.botoes-nav:hover,
+.ativo {
+  background-color: var(--branco);
+  color: var(--azul-escuro);
+}
+
+.botao-sair {
+  background-color: var(--laranja);
+  border-color: var(--laranja);
+}
+
+.botao-sair:hover {
+  background-color: #c2410c;
+  border-color: #c2410c;
+}
+
+.slogan {
+  color: var(--azul-borda);
+  padding-bottom: 10px;
+}
+
+.p-copyright {
+  font-size: 0.9rem;
+}

@@ -1,0 +1,22 @@
+.section-resumo,
+.section-lista {
+  width: 100%;
+  max-width: var(--largura-secao);
+  margin-bottom: 24px;
+}
+
+.section-resumo {
+  background-color: var(--branco);
+  border: 2px solid var(--azul-borda);
+  border-radius: var(--raio-card);
+  padding: 24px 30px;
+}
+
+.section-resumo h1,
+.section-lista h1 {
+  color: var(--azul-escuro);
+}
+
+.vazio {
+  color: var(--texto-suave);
+}
