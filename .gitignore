@@ -153,3 +153,6 @@ dist/
 
 # prisma
 /generated/prisma
+
+# mac
+.DS_Store
