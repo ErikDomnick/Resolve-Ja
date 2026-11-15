@@ -1,0 +1,17 @@
+.aviso {
+  margin: 10px 0;
+  border-radius: 0 6px 6px 0;
+  padding: 8px 12px;
+}
+
+.erro {
+  color: var(--erro-texto);
+  background-color: var(--erro-fundo);
+  border-left: 4px solid var(--erro-borda);
+}
+
+.sucesso {
+  color: #065f46;
+  background-color: var(--verde-fundo);
+  border-left: 4px solid var(--verde);
+}

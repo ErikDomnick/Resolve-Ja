@@ -1,0 +1,22 @@
+.section-consulta,
+.section-salvas {
+  width: 100%;
+  max-width: 700px;
+  margin-bottom: 24px;
+}
+
+.section-consulta {
+  background-color: var(--branco);
+  border: 2px solid var(--azul-borda);
+  border-radius: var(--raio-card);
+  padding: 24px 30px;
+}
+
+.section-consulta h1,
+.section-salvas h1 {
+  color: var(--azul-escuro);
+}
+
+.vazio {
+  color: var(--texto-suave);
+}

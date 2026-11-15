@@ -1,0 +1,17 @@
+.seletor-foto {
+  margin-bottom: 10px;
+}
+
+.previa {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+}
+
+.previa img {
+  max-width: 220px;
+  max-height: 160px;
+  border-radius: var(--raio-pequeno);
+  border: 2px solid var(--borda);
+  object-fit: cover;
+}

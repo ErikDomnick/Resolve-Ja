@@ -1,0 +1,22 @@
+.filtros {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 14px;
+  margin-bottom: 16px;
+}
+
+.filtros label {
+  margin-bottom: 0;
+}
+
+.busca {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.busca button {
+  margin-bottom: 0;
+  height: 42px;
+}
